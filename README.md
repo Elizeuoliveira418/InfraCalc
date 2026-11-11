@@ -31,8 +31,8 @@ Para executar o projeto localmente, é necessário ter o [Node.js](https://nodej
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-   cd Dimesionamento
+   git clone https://github.com/elizeuoliveira418/InfraCalc.git
+   cd InfraCalc
    ```
 
 2. Instale as dependências:
@@ -45,7 +45,7 @@ Para executar o projeto localmente, é necessário ter o [Node.js](https://nodej
    npm run dev
    ```
 
-4. Acesse no seu navegador o endereço fornecido (geralmente `http://localhost:3000/` ou `http://localhost:5173/`).
+4. O navegador abre automaticamente. Caso não abra, acesse `http://localhost:3000/` (porta definida em `vite.config.js`).
 
 ---
 
@@ -58,10 +58,3 @@ npm run build
 ```
 
 Os arquivos compilados serão gerados no diretório `dist/` e podem ser hospedados em qualquer provedor web (Vercel, Netlify, GitHub Pages, Nginx, etc.).
-
----
-
-## 📄 Licença
-
-Este projeto é disponibilizado para fins educacionais e de dimensionamento técnico.
-
